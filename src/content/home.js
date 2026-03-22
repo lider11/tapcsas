@@ -22,7 +22,6 @@ export const hero = {
   asideNote: 'Atención para proyectos públicos y privados en Colombia.',
 }
 
-
 export const about = {
   title: 'Quiénes somos',
   descriptionPrimary:
@@ -37,39 +36,65 @@ export const about = {
   ],
 }
 
+export const serviceSegments = ['Todos', 'Público', 'Industrial', 'Construcción']
+
 export const services = [
   {
     title: 'Consultoría ambiental',
+    summary: 'Estructuramos la ruta regulatoria y técnica para viabilizar proyectos con seguridad jurídica y ambiental.',
+    segments: ['Público', 'Industrial'],
+    levels: ['Diagnóstico', 'Implementación', 'Seguimiento'],
+    idealFor: 'Ideal para proyectos que requieren permisos, licencias y control de riesgos regulatorios.',
+    evidence: 'Caso referencial: permisos aprobados en tiempo objetivo para proyecto industrial.',
     items: [
       'Licenciamiento y permisos ambientales.',
       'Estudios de impacto y modelación.',
       'Gestión de vertimientos, emisiones y residuos.',
       'Instrumentos de cumplimiento y seguimiento.',
     ],
+    outcome: 'Resultado esperado: reducción de riesgos regulatorios y mayor trazabilidad técnica.',
   },
   {
     title: 'Saneamiento básico y recursos hídricos',
+    summary: 'Diseñamos soluciones de agua y saneamiento orientadas a eficiencia operativa y sostenibilidad.',
+    segments: ['Público', 'Industrial'],
+    levels: ['Diagnóstico', 'Implementación', 'Seguimiento'],
+    idealFor: 'Ideal para operadores y territorios que buscan mejorar continuidad y calidad del servicio.',
+    evidence: 'Caso referencial: optimización de sistema regional de acueducto con mejora operativa.',
     items: [
       'Diseño y optimización de sistemas de acueducto y alcantarillado.',
       'Soluciones de potabilización y reúso de agua.',
       'Evaluación técnica para operación eficiente.',
     ],
+    outcome: 'Resultado esperado: continuidad del servicio y mejora de indicadores de calidad.',
   },
   {
     title: 'Construcción y obras civiles',
+    summary: 'Gestionamos obras de infraestructura con control técnico, cumplimiento contractual y enfoque en calidad.',
+    segments: ['Público', 'Construcción'],
+    levels: ['Diagnóstico', 'Implementación', 'Seguimiento'],
+    idealFor: 'Ideal para contratistas y entidades que requieren control integral de alcance, plazo y calidad.',
+    evidence: 'Caso referencial: interventoría urbana entregada conforme a especificaciones.',
     items: [
       'Planeación, diseño y supervisión de obras.',
       'Trámites de licencias urbanísticas y de construcción.',
       'Interventoría técnica y administrativa.',
     ],
+    outcome: 'Resultado esperado: entregas en alcance, tiempo y especificación técnica.',
   },
   {
     title: 'Asesoría técnica y regulatoria',
+    summary: 'Acompañamos decisiones críticas con soporte técnico-legal para minimizar contingencias.',
+    segments: ['Público', 'Industrial', 'Construcción'],
+    levels: ['Diagnóstico', 'Implementación', 'Seguimiento'],
+    idealFor: 'Ideal para organizaciones que necesitan soporte experto ante procesos administrativos complejos.',
+    evidence: 'Caso referencial: mitigación de riesgos regulatorios en procesos sancionatorios.',
     items: [
       'Soporte jurídico-ambiental.',
       'Acompañamiento en procesos administrativos.',
       'Estrategias de prevención y mitigación de riesgos regulatorios.',
     ],
+    outcome: 'Resultado esperado: decisiones mejor informadas y menor exposición a sanciones.',
   },
 ]
 

@@ -27,6 +27,8 @@ src/
 - ✅ Fase 4: refactor data-driven (hero/pillars desacoplados + reducción de duplicación visual)
 - ✅ Fase 5: tailwind best practices (utilities de sistema: `ds-glass`, `ds-panel`, `ds-section-title`)
 
+- ✅ Iteración servicios: filtros por segmento + niveles de servicio + evidencia por tarjeta
+
 ## Principios aplicados
 - Tokens de diseño centralizados en `tailwind.config.js`
 - Componentes reutilizables con variantes (`variant`, `size`, `tone`)

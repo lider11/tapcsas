@@ -7,7 +7,7 @@ import MissionVisionSection from './components/sections/MissionVisionSection'
 import ProjectsSection from './components/sections/ProjectsSection'
 import ServicesSection from './components/sections/ServicesSection'
 import ValueSection from './components/sections/ValueSection'
-import { about, benefits, hero, navLinks, pillars, projects, services } from './content/home'
+import { about, benefits, hero, navLinks, pillars, projects, serviceSegments, services } from './content/home'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
 
       <main>
         <AboutSection about={about} />
-        <ServicesSection services={services} />
+        <ServicesSection services={services} segments={serviceSegments} />
         <ProjectsSection projects={projects} />
         <MissionVisionSection pillars={pillars} />
         <ValueSection benefits={benefits} />
