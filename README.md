@@ -50,3 +50,5 @@ src/
 - Definir `alt` descriptivo en cada imagen y `loading="lazy"` para performance.
 - Estandarizar marcos de imagen mediante componentes reutilizables (`ImageFrame`).
 
+
+- ✅ Footer con redes sociales y mapa de Google integrado

@@ -174,3 +174,19 @@ export const benefits = [
     impact: 'Impacto: mayor visibilidad del avance y mejor control de resultados.',
   },
 ]
+
+
+export const footer = {
+  company: 'TAPC SAS',
+  description:
+    'Consultoría ambiental y obras civiles con enfoque técnico, cumplimiento normativo y sostenibilidad.',
+  address: 'Colombia',
+  email: 'contacto@tapcsas.com',
+  socialLinks: [
+    { label: 'LinkedIn', href: 'https://www.linkedin.com' },
+    { label: 'Facebook', href: 'https://www.facebook.com' },
+    { label: 'Instagram', href: 'https://www.instagram.com' },
+  ],
+  mapEmbedUrl:
+    'https://www.google.com/maps?q=Colombia&output=embed',
+}
