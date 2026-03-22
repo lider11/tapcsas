@@ -8,13 +8,7 @@ function Navbar({ links }) {
 
   return (
     <Container className="pt-6">
-      <nav
-        aria-label="Principal"
-        className={cn(
-          'rounded-2xl border border-white/20 bg-white/10 px-5 py-4 backdrop-blur-md',
-          open && 'shadow-soft',
-        )}
-      >
+      <nav aria-label="Principal" className={cn('ds-glass px-5 py-4', open && 'shadow-soft')}>
         <div className="flex items-center justify-between">
           <a href="#" className="text-lg font-semibold tracking-wide md:text-xl">
             TAPC SAS

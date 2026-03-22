@@ -23,3 +23,17 @@
     @apply focus-visible:outline-none;
   }
 }
+
+@layer components {
+  .ds-glass {
+    @apply rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md;
+  }
+
+  .ds-panel {
+    @apply rounded-xl border border-neutral-200 bg-white shadow-soft;
+  }
+
+  .ds-section-title {
+    @apply text-3xl font-bold tracking-tight md:text-4xl;
+  }
+}

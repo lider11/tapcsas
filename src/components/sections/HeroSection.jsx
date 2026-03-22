@@ -38,7 +38,7 @@ function HeroSection({ hero }) {
             </div>
           </div>
 
-          <aside className="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-md">
+          <aside className="ds-glass p-6">
             <Heading as="h2" level={3} className="text-white">
               {hero.asideTitle}
             </Heading>

@@ -25,6 +25,7 @@ src/
 - ✅ Fase 2: componentes atómicos reutilizables
 - ✅ Fase 3: componentes compuestos (Navbar responsive, ProjectsSection, ProjectCard, CTA compuesta)
 - ✅ Fase 4: refactor data-driven (hero/pillars desacoplados + reducción de duplicación visual)
+- ✅ Fase 5: tailwind best practices (utilities de sistema: `ds-glass`, `ds-panel`, `ds-section-title`)
 
 ## Principios aplicados
 - Tokens de diseño centralizados en `tailwind.config.js`

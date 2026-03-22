@@ -2,7 +2,7 @@ import { cn } from '../../lib/cn'
 
 const levels = {
   1: 'text-4xl font-bold tracking-tight md:text-6xl',
-  2: 'text-3xl font-bold tracking-tight md:text-4xl',
+  2: 'ds-section-title',
   3: 'text-2xl font-semibold tracking-tight',
 }
 
