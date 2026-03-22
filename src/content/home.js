@@ -127,14 +127,28 @@ export const projects = [
 
 export const pillars = [
   {
-    title: 'Misión',
+    label: 'Misión',
+    title: 'Generar valor técnico, social y ambiental',
     description:
-      'Brindar servicios de consultoría, interventoría, supervisión y gerencia de proyectos ambientales y civiles que generen valor técnico, social y ambiental, cumpliendo altos estándares de calidad, seguridad y sostenibilidad.',
+      'Brindamos servicios de consultoría, interventoría, supervisión y gerencia de proyectos ambientales y civiles con altos estándares de calidad, seguridad y sostenibilidad.',
+    focus: 'Enfoque operativo: excelencia técnica y cumplimiento riguroso.',
+    commitments: [
+      'Diseñar soluciones viables con trazabilidad técnica.',
+      'Asegurar cumplimiento normativo en cada etapa del proyecto.',
+      'Integrar criterios de sostenibilidad en decisiones clave.',
+    ],
   },
   {
-    title: 'Visión',
+    label: 'Visión',
+    title: 'Ser referente nacional en soluciones ambientales y civiles',
     description:
-      'Ser una empresa referente en Colombia en soluciones ambientales y obras civiles, reconocida por su rigor técnico, cumplimiento, innovación y aporte al desarrollo sostenible de los territorios.',
+      'Buscamos consolidarnos en Colombia como una empresa reconocida por su innovación, cumplimiento y aporte al desarrollo sostenible de los territorios.',
+    focus: 'Enfoque estratégico: posicionamiento, innovación y crecimiento sostenible.',
+    commitments: [
+      'Fortalecer capacidades interdisciplinarias de alto desempeño.',
+      'Escalar metodologías de gestión con estándares empresariales.',
+      'Construir relaciones de largo plazo basadas en resultados.',
+    ],
   },
 ]
 
