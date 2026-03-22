@@ -1,8 +1,10 @@
+import heroEngineering from '../../assets/hero-engineering.svg'
 import Badge from '../ui/Badge'
 import BulletList from '../ui/BulletList'
 import Button from '../ui/Button'
 import Container from '../ui/Container'
 import Heading from '../ui/Heading'
+import ImageFrame from '../ui/ImageFrame'
 import Text from '../ui/Text'
 
 function HeroSection({ hero }) {
@@ -38,20 +40,28 @@ function HeroSection({ hero }) {
             </div>
           </div>
 
-          <aside className="ds-glass p-6">
-            <Heading as="h2" level={3} className="text-white">
-              {hero.asideTitle}
-            </Heading>
-            <BulletList
-              items={hero.asideItems}
-              className="mt-4 text-primary-100"
-              bulletClassName="bg-primary-100"
-              textClassName="items-start"
+          <div className="space-y-4">
+            <ImageFrame
+              src={heroEngineering}
+              alt="Ilustración técnica de planificación y gestión de proyectos ambientales y civiles"
+              caption="Planeación técnica, control normativo y ejecución con trazabilidad."
             />
-            <Text tone="inverse" className="mt-5 text-sm">
-              {hero.asideNote}
-            </Text>
-          </aside>
+
+            <aside className="ds-glass p-6">
+              <Heading as="h2" level={3} className="text-white">
+                {hero.asideTitle}
+              </Heading>
+              <BulletList
+                items={hero.asideItems}
+                className="mt-4 text-primary-100"
+                bulletClassName="bg-primary-100"
+                textClassName="items-start"
+              />
+              <Text tone="inverse" className="mt-5 text-sm">
+                {hero.asideNote}
+              </Text>
+            </aside>
+          </div>
         </div>
       </Container>
     </section>

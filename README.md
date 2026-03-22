@@ -41,3 +41,12 @@ src/
 - `npm run dev`
 - `npm run build`
 - `npm run preview`
+
+
+## Recomendaciones de imagen (atractivo visual)
+- Usar hero visual técnico (obra + ingeniería + ambiente) con formato 3:2.
+- Mantener estilo consistente: tonos corporativos, overlays suaves y enfoque profesional B2B.
+- Priorizar imágenes con contexto real (equipo en campo, planos, supervisión, infraestructura).
+- Definir `alt` descriptivo en cada imagen y `loading="lazy"` para performance.
+- Estandarizar marcos de imagen mediante componentes reutilizables (`ImageFrame`).
+
