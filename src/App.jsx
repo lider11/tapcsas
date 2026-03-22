@@ -1,5 +1,6 @@
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
+import ChatbotWidget from './components/layout/ChatbotWidget'
 import AboutSection from './components/sections/AboutSection'
 import CTASection from './components/sections/CTASection'
 import HeroSection from './components/sections/HeroSection'
@@ -7,7 +8,7 @@ import MissionVisionSection from './components/sections/MissionVisionSection'
 import ProjectsSection from './components/sections/ProjectsSection'
 import ServicesSection from './components/sections/ServicesSection'
 import ValueSection from './components/sections/ValueSection'
-import { about, benefits, footer, hero, navLinks, pillars, projects, serviceSegments, services } from './content/home'
+import { about, benefits, chatbot, footer, hero, navLinks, pillars, projects, serviceSegments, services } from './content/home'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </main>
 
       <Footer footer={footer} />
+      <ChatbotWidget whatsappNumber={chatbot.whatsappNumber} />
     </div>
   )
 }

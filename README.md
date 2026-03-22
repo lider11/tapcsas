@@ -52,3 +52,4 @@ src/
 
 
 - ✅ Footer con redes sociales y mapa de Google integrado
+- ✅ Chatbot con funnel de respuestas y cierre a contacto por WhatsApp

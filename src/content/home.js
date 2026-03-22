@@ -190,3 +190,8 @@ export const footer = {
   mapEmbedUrl:
     'https://www.google.com/maps?q=Colombia&output=embed',
 }
+
+
+export const chatbot = {
+  whatsappNumber: '573001112233',
+}
