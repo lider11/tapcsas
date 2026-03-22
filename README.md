@@ -14,10 +14,16 @@ src/
   components/
     ui/        # componentes base (Button, Card, Section, etc.)
     layout/    # Navbar, Footer
-    sections/  # Hero, Services, CTA, etc.
+    sections/  # Hero, About, Services, Projects, CTA, etc.
   content/     # contenido desacoplado
   lib/         # utilidades (cn)
+  styles/      # tokens/documentación complementaria
 ```
+
+## Fases implementadas
+- ✅ Fase 1: tokens y base visual en Tailwind
+- ✅ Fase 2: componentes atómicos reutilizables
+- ✅ Fase 3: componentes compuestos (Navbar responsive, ProjectsSection, ProjectCard, CTA compuesta)
 
 ## Principios aplicados
 - Tokens de diseño centralizados en `tailwind.config.js`

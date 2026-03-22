@@ -1,6 +1,7 @@
 export const navLinks = [
   { label: 'Nosotros', href: '#nosotros' },
   { label: 'Servicios', href: '#servicios' },
+  { label: 'Proyectos', href: '#proyectos' },
   { label: 'Valor', href: '#valor' },
   { label: 'Contacto', href: '#contacto' },
 ]
@@ -38,6 +39,33 @@ export const services = [
       'Acompañamiento en procesos administrativos.',
       'Estrategias de prevención y mitigación de riesgos regulatorios.',
     ],
+  },
+]
+
+export const projects = [
+  {
+    title: 'Optimización de sistema de acueducto regional',
+    category: 'Saneamiento básico',
+    description: 'Diseño técnico y plan de mejora para aumentar continuidad y calidad del servicio.',
+    client: 'Entidad territorial',
+    location: 'Caribe colombiano',
+    result: 'Mejora operativa y trazabilidad normativa.',
+  },
+  {
+    title: 'Gestión integral de permisos para proyecto industrial',
+    category: 'Consultoría ambiental',
+    description: 'Estructuración documental, acompañamiento regulatorio y seguimiento de cumplimiento.',
+    client: 'Compañía privada',
+    location: 'Centro del país',
+    result: 'Aprobación de trámites en tiempo objetivo.',
+  },
+  {
+    title: 'Interventoría técnica de obra civil urbana',
+    category: 'Obras civiles',
+    description: 'Control técnico-administrativo con foco en calidad constructiva y cronograma.',
+    client: 'Contratista principal',
+    location: 'Área metropolitana',
+    result: 'Entrega conforme a especificaciones y alcance.',
   },
 ]
 
