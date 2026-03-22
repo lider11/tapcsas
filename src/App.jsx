@@ -7,21 +7,21 @@ import MissionVisionSection from './components/sections/MissionVisionSection'
 import ProjectsSection from './components/sections/ProjectsSection'
 import ServicesSection from './components/sections/ServicesSection'
 import ValueSection from './components/sections/ValueSection'
-import { benefits, navLinks, projects, services } from './content/home'
+import { benefits, hero, navLinks, pillars, projects, services } from './content/home'
 
 function App() {
   return (
     <div className="bg-neutral-50 text-neutral-900">
       <div className="bg-gradient-to-br from-primary-900 via-primary-700 to-primary-600 text-white">
         <Navbar links={navLinks} />
-        <HeroSection />
+        <HeroSection hero={hero} />
       </div>
 
       <main>
         <AboutSection />
         <ServicesSection services={services} />
         <ProjectsSection projects={projects} />
-        <MissionVisionSection />
+        <MissionVisionSection pillars={pillars} />
         <ValueSection benefits={benefits} />
         <CTASection />
       </main>

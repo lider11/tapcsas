@@ -6,6 +6,22 @@ export const navLinks = [
   { label: 'Contacto', href: '#contacto' },
 ]
 
+export const hero = {
+  badge: 'Consultoría ambiental + obras civiles',
+  title: 'Soluciones integrales en consultoría ambiental y obras civiles',
+  description:
+    'Acompañamos proyectos públicos y privados desde la planeación, permisos y estudios técnicos hasta la ejecución y supervisión, con enfoque en cumplimiento normativo, calidad y sostenibilidad.',
+  primaryCta: { label: 'Solicitar diagnóstico inicial', href: '#contacto' },
+  secondaryCta: { label: 'Ver servicios', href: '#servicios' },
+  asideTitle: '¿Por qué elegir TAPC SAS?',
+  asideItems: [
+    'Equipo multidisciplinario en ingeniería y ambiente.',
+    'Cumplimiento normativo con enfoque preventivo.',
+    'Gestión integral de principio a fin.',
+  ],
+  asideNote: 'Atención para proyectos públicos y privados en Colombia.',
+}
+
 export const services = [
   {
     title: 'Consultoría ambiental',
@@ -66,6 +82,19 @@ export const projects = [
     client: 'Contratista principal',
     location: 'Área metropolitana',
     result: 'Entrega conforme a especificaciones y alcance.',
+  },
+]
+
+export const pillars = [
+  {
+    title: 'Misión',
+    description:
+      'Brindar servicios de consultoría, interventoría, supervisión y gerencia de proyectos ambientales y civiles que generen valor técnico, social y ambiental, cumpliendo altos estándares de calidad, seguridad y sostenibilidad.',
+  },
+  {
+    title: 'Visión',
+    description:
+      'Ser una empresa referente en Colombia en soluciones ambientales y obras civiles, reconocida por su rigor técnico, cumplimiento, innovación y aporte al desarrollo sostenible de los territorios.',
   },
 ]
 

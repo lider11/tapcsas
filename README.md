@@ -12,10 +12,10 @@ Sitio corporativo construido con **React + Vite + Tailwind CSS** refactorizado c
 ```text
 src/
   components/
-    ui/        # componentes base (Button, Card, Section, etc.)
+    ui/        # componentes base (Button, Card, Section, BulletList, etc.)
     layout/    # Navbar, Footer
     sections/  # Hero, About, Services, Projects, CTA, etc.
-  content/     # contenido desacoplado
+  content/     # contenido desacoplado (copy + data de render)
   lib/         # utilidades (cn)
   styles/      # tokens/documentación complementaria
 ```
@@ -24,6 +24,7 @@ src/
 - ✅ Fase 1: tokens y base visual en Tailwind
 - ✅ Fase 2: componentes atómicos reutilizables
 - ✅ Fase 3: componentes compuestos (Navbar responsive, ProjectsSection, ProjectCard, CTA compuesta)
+- ✅ Fase 4: refactor data-driven (hero/pillars desacoplados + reducción de duplicación visual)
 
 ## Principios aplicados
 - Tokens de diseño centralizados en `tailwind.config.js`
