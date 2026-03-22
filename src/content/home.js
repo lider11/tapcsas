@@ -153,8 +153,24 @@ export const pillars = [
 ]
 
 export const benefits = [
-  'Equipo técnico multidisciplinario.',
-  'Cumplimiento normativo con enfoque preventivo.',
-  'Gestión integral: del diagnóstico a la ejecución.',
-  'Atención oportuna y trazabilidad en cada etapa del proyecto.',
+  {
+    title: 'Equipo técnico multidisciplinario',
+    description: 'Integramos especialistas en ambiente, ingeniería y gestión para resolver retos complejos con visión integral.',
+    impact: 'Impacto: decisiones más sólidas y mejor coordinación técnica.',
+  },
+  {
+    title: 'Cumplimiento normativo preventivo',
+    description: 'Aplicamos un enfoque anticipado para reducir contingencias regulatorias y operativas.',
+    impact: 'Impacto: menor exposición a sanciones y retrasos críticos.',
+  },
+  {
+    title: 'Gestión integral de principio a fin',
+    description: 'Acompañamos desde diagnóstico y diseño hasta implementación y seguimiento.',
+    impact: 'Impacto: continuidad metodológica y control del proyecto.',
+  },
+  {
+    title: 'Trazabilidad y comunicación ejecutiva',
+    description: 'Estructuramos reportes claros para facilitar gobernanza, control y toma de decisiones.',
+    impact: 'Impacto: mayor visibilidad del avance y mejor control de resultados.',
+  },
 ]
