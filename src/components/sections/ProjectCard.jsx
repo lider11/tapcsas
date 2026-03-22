@@ -4,7 +4,9 @@ import Text from '../ui/Text'
 function ProjectCard({ project }) {
   return (
     <article className="overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-soft">
-      <img src={project.image} alt={project.imageAlt} className="h-52 w-full object-cover" loading="lazy" />
+      <div className="relative aspect-[16/8] w-full overflow-hidden bg-neutral-900">
+        <img src={project.image} alt={project.imageAlt} className="h-full w-full object-cover" loading="lazy" />
+      </div>
 
       <div className="p-6">
         <p className="text-xs font-semibold uppercase tracking-wide text-primary-600">{project.category}</p>

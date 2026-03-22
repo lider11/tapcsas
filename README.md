@@ -53,4 +53,4 @@ src/
 
 - ✅ Footer con redes sociales y mapa de Google integrado
 - ✅ Chatbot con funnel de respuestas y cierre a contacto por WhatsApp
-- ✅ Carrusel de obras/proyectos con navegación e indicadores
+- ✅ Carrusel de obras/proyectos mejorado (autoplay suave + selector por proyecto)
