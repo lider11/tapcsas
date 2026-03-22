@@ -22,6 +22,21 @@ export const hero = {
   asideNote: 'Atención para proyectos públicos y privados en Colombia.',
 }
 
+
+export const about = {
+  title: 'Quiénes somos',
+  descriptionPrimary:
+    'En TAPC SAS desarrollamos y ejecutamos proyectos ambientales, técnicos y de infraestructura civil con un equipo interdisciplinario de ingeniería y consultoría.',
+  descriptionSecondary:
+    'Convertimos requerimientos normativos y operativos en soluciones viables, seguras y sostenibles para entidades públicas, empresas privadas y organizaciones territoriales.',
+  metrics: ['Enfoque multidisciplinario', 'Cobertura nacional', 'Gestión integral de proyectos'],
+  strengths: [
+    'Equipo técnico con experiencia en consultoría, interventoría y obra.',
+    'Metodología orientada a cumplimiento, riesgos y trazabilidad.',
+    'Comunicación ejecutiva y reportes claros para toma de decisiones.',
+  ],
+}
+
 export const services = [
   {
     title: 'Consultoría ambiental',
