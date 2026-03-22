@@ -1,3 +1,7 @@
+import workWater from '../assets/work-water.svg'
+import workPermits from '../assets/work-permits.svg'
+import workCivil from '../assets/work-civil.svg'
+
 export const navLinks = [
   { label: 'Nosotros', href: '#nosotros' },
   { label: 'Servicios', href: '#servicios' },
@@ -106,6 +110,8 @@ export const projects = [
     client: 'Entidad territorial',
     location: 'Caribe colombiano',
     result: 'Mejora operativa y trazabilidad normativa.',
+    image: workWater,
+    imageAlt: 'Ilustración de infraestructura hídrica y optimización de acueducto',
   },
   {
     title: 'Gestión integral de permisos para proyecto industrial',
@@ -114,6 +120,8 @@ export const projects = [
     client: 'Compañía privada',
     location: 'Centro del país',
     result: 'Aprobación de trámites en tiempo objetivo.',
+    image: workPermits,
+    imageAlt: 'Ilustración de proceso técnico y regulatorio para permisos ambientales',
   },
   {
     title: 'Interventoría técnica de obra civil urbana',
@@ -122,6 +130,8 @@ export const projects = [
     client: 'Contratista principal',
     location: 'Área metropolitana',
     result: 'Entrega conforme a especificaciones y alcance.',
+    image: workCivil,
+    imageAlt: 'Ilustración de obra civil urbana con enfoque en supervisión',
   },
 ]
 
