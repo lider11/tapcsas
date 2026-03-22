@@ -41,41 +41,94 @@ const benefits = [
   'Atención oportuna y trazabilidad en cada etapa del proyecto.',
 ]
 
+const navLinks = [
+  { label: 'Nosotros', href: '#nosotros' },
+  { label: 'Servicios', href: '#servicios' },
+  { label: 'Valor', href: '#valor' },
+  { label: 'Contacto', href: '#contacto' },
+]
+
 function App() {
   return (
     <div className="bg-slate-50 text-slate-900">
-      <header className="bg-gradient-to-br from-brand-900 to-brand-700 text-white">
-        <section className="section-container py-24">
-          <p className="mb-4 inline-block rounded-full bg-white/10 px-4 py-1 text-sm font-medium">
-            TAPC SAS
-          </p>
-          <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl">
-            Soluciones integrales en consultoría ambiental y obras civiles
-          </h1>
-          <p className="mt-6 max-w-3xl text-lg text-emerald-50">
-            Acompañamos proyectos públicos y privados desde la planeación, permisos y estudios técnicos
-            hasta la ejecución y supervisión, con enfoque en cumplimiento normativo, calidad y
-            sostenibilidad.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4">
+      <header className="relative overflow-hidden bg-gradient-to-br from-brand-900 via-brand-700 to-emerald-600 text-white">
+        <div className="absolute inset-0 opacity-20">
+          <div className="h-full w-full bg-[radial-gradient(circle_at_top_right,_white_0,_transparent_35%)]" />
+        </div>
+
+        <section className="section-container relative z-10 py-10 md:py-14">
+          <nav className="mb-16 flex items-center justify-between rounded-2xl border border-white/20 bg-white/10 px-5 py-4 backdrop-blur-md">
+            <a href="#" className="text-lg font-semibold tracking-wide md:text-xl">
+              TAPC SAS
+            </a>
+
+            <ul className="hidden items-center gap-7 text-sm font-medium md:flex">
+              {navLinks.map((link) => (
+                <li key={link.label}>
+                  <a className="transition hover:text-emerald-100" href={link.href}>
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+
             <a
               href="#contacto"
-              className="rounded-lg bg-white px-6 py-3 font-semibold text-brand-700 transition hover:bg-emerald-100"
+              className="rounded-lg bg-white px-4 py-2 text-sm font-semibold text-brand-700 transition hover:bg-emerald-100"
             >
-              Solicitar diagnóstico inicial
+              Agenda una llamada
             </a>
-            <a
-              href="#servicios"
-              className="rounded-lg border border-white/70 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
-            >
-              Ver servicios
-            </a>
+          </nav>
+
+          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+            <div>
+              <p className="mb-4 inline-block rounded-full bg-white/10 px-4 py-1 text-sm font-medium">
+                Consultoría ambiental + obras civiles
+              </p>
+
+              <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl">
+                Soluciones integrales en consultoría ambiental y obras civiles
+              </h1>
+
+              <p className="mt-6 max-w-3xl text-lg text-emerald-50">
+                Acompañamos proyectos públicos y privados desde la planeación, permisos y estudios técnicos
+                hasta la ejecución y supervisión, con enfoque en cumplimiento normativo, calidad y
+                sostenibilidad.
+              </p>
+
+              <div className="mt-10 flex flex-wrap gap-4">
+                <a
+                  href="#contacto"
+                  className="rounded-lg bg-white px-6 py-3 font-semibold text-brand-700 transition hover:bg-emerald-100"
+                >
+                  Solicitar diagnóstico inicial
+                </a>
+                <a
+                  href="#servicios"
+                  className="rounded-lg border border-white/70 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+                >
+                  Ver servicios
+                </a>
+              </div>
+            </div>
+
+            <aside className="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-md">
+              <h2 className="text-xl font-semibold">¿Por qué elegir TAPC SAS?</h2>
+              <ul className="mt-4 space-y-3 text-emerald-50">
+                <li>✔ Equipo multidisciplinario en ingeniería y ambiente.</li>
+                <li>✔ Cumplimiento normativo con enfoque preventivo.</li>
+                <li>✔ Gestión integral de principio a fin.</li>
+              </ul>
+              <p className="mt-5 text-sm text-emerald-100">
+                Atención para proyectos públicos y privados en Colombia.
+              </p>
+            </aside>
           </div>
         </section>
       </header>
 
       <main>
-        <section className="section-container">
+        <section id="nosotros" className="section-container">
           <h2 className="text-3xl font-bold md:text-4xl">Quiénes somos</h2>
           <p className="mt-5 max-w-4xl text-lg text-slate-700">
             En TAPC SAS desarrollamos y ejecutamos proyectos ambientales, técnicos y de infraestructura
@@ -127,7 +180,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section-container bg-white">
+        <section id="valor" className="section-container bg-white">
           <h2 className="text-3xl font-bold md:text-4xl">Propuesta de valor</h2>
           <ul className="mt-6 grid gap-4 md:grid-cols-2">
             {benefits.map((benefit) => (
